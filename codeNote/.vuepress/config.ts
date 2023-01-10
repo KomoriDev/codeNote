@@ -19,7 +19,13 @@ export default defineUserConfig({
       '/blogs/about/': [
         'introduce',
         'contribute' 
+      ],
+      '/notes/git/': [
+        'base',
+        'pull',
+        'push',
       ]
+    },
     },
     navbar:
     [
