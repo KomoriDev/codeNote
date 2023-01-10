@@ -2,10 +2,8 @@
 My programming notes
 
 
-## 快速开始
-```
-git clone https://github.com/mute23-code/codeNote.git
-```
+## 参与
+fork 俺的项目（顺便点个star）
 
 ```
 yarn add -D vuepress@next
