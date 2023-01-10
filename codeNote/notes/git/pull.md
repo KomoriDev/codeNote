@@ -5,7 +5,7 @@ categories:
  - 笔记
 tags:
  - Git
-prev: false
+prev: base.md
 next: push.md
 ---
 

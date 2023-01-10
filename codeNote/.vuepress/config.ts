@@ -21,8 +21,9 @@ export default defineUserConfig({
         'contribute' 
       ],
       '/notes/git/': [
+        'base',
         'pull',
-        'push'
+        'push',
       ]
     },
     navbar:
