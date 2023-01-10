@@ -1,15 +1,15 @@
 ---
-title: Git
+title: 删除
 date: 2023-01-10
 categories:
  - 笔记
 tags:
  - Git
-prev: false
-next: false
+prev: base.md
+next: push.md
 ---
 
-# Git
+# Git删除
 
 ## 删除Github文件
 
