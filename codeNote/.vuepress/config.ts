@@ -26,7 +26,6 @@ export default defineUserConfig({
         'push',
       ]
     },
-    },
     navbar:
     [
       { text: 'Home', link: '/' },
