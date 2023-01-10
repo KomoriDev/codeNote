@@ -3,6 +3,9 @@ My programming notes
 
 
 ## 快速开始
+```
+git clone https://github.com/mute23-code/codeNote.git
+```
 
 ```
 yarn add -D vuepress@next
