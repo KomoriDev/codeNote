@@ -20,10 +20,21 @@ export default defineUserConfig({
         'introduce',
         'contribute' 
       ],
-      '/notes/git/': [
-        'base',
-        'pull',
-        'push',
+      '/docs/git/': [
+        {
+          text: '指令',
+          children: ["base", "push", "pull"]
+        },
+        {
+          text: '报错',
+          children: ["error"]
+        }
+      ],
+      '/docs/typescript': [
+        {
+          text: '基础',
+          children: ["base", "note"]
+        }
       ]
     },
     navbar:
@@ -38,6 +49,7 @@ export default defineUserConfig({
         ]
       },
       { text: '留言板', link: '/blogs/message-board.html' },
+      { text: '时间轴', link: '/timeline/'}
     ],
     bulletin: {
       body: [

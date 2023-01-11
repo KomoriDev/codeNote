@@ -5,8 +5,8 @@ categories:
  - 笔记
 tags:
  - Git
-prev: pull.md
-next: false
+prev: base.md
+next: pull.md
 ---
 
 # Git上传

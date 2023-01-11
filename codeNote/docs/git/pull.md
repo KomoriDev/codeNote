@@ -5,8 +5,8 @@ categories:
  - 笔记
 tags:
  - Git
-prev: base.md
-next: push.md
+prev: push.md
+next: error.md
 ---
 
 # Git删除

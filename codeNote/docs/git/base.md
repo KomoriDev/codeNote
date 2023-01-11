@@ -6,10 +6,10 @@ categories:
 tags:
  - Git
 prev: false
-next: pull.md
+next: push.md
 ---
 
-# 基础
+# Git基础
 
 ## 基础
 
