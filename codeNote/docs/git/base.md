@@ -9,7 +9,7 @@ prev: false
 next: push.md
 ---
 
-# Git基础
+# 基础
 
 ## 基础
 
