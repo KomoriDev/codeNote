@@ -2,8 +2,10 @@
 title: 贡献
 date: 2023-01-10
 categories:
- - About
-prev: false
+ - 博客
+tags:
+ - 关于
+prev: ./introduce.md
 next: false
 ---
 

@@ -33,19 +33,18 @@ export default defineUserConfig({
       '/docs/typescript': [
         {
           text: '基础',
-          children: ["base", "note"]
+          children: ["base", "note", "datatype"]
         }
       ]
     },
     navbar:
     [
-      { text: 'Home', link: '/' },
-      { text: 'Categories', link: '/categories/About/1' },
-      { text: 'Tags', link: '/tags/git/1/' },
-      { text: 'Docs',
+      { text: '主页', link: '/' },
+      { text: '博客', link: '/blogs/about/introduce.md'},
+      { text: '笔记',
         children: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/theme' },
-          { text: 'vuepress-theme-reco', link: '/blogs/other/guide' }
+          { text: 'Git', link: '/docs/git/base.html' },
+          { text: 'TypeScript', link: '/docs/typescript/base.html' }
         ]
       },
       { text: '留言板', link: '/blogs/message-board.html' },
@@ -92,13 +91,11 @@ export default defineUserConfig({
         {
           type: 'hr',
         },
+        { type: 'hr', },
         {
-          type: 'buttongroup',
+          type: 'buttongroup', 
           children: [
-            {
-              text: '打赏',
-              link: 'https://afdian.net/a/linxi-bot'
-            }
+            { text: '打赏', link: 'https://afdian.net/a/linxi-bot' }
           ]
         }
       ],
